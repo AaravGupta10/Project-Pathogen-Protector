@@ -1,0 +1,30 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://i0.wp.com/post.healthline.com/wp-content/uploads/2020/03/surgical_mask_still_life-1296x728-header2.jpg?w=1155&h=1528');
+    
+   
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background: dodgerblue;
+    margin: 0%;
+    font-size: 50px;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 30px;
+}
+
+img {
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: lawngreen;
+}

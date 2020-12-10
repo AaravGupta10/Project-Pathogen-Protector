@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      body {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      background-image: url('https://i0.wp.com/post.healthline.com/wp-content/uploads/2020/03/surgical_mask_still_life-1296x728-header2.jpg?w=1155&h=1528');
+      }
+
+      h1 {
+          font-family: Arial, Helvetica, sans-serif;
+          text-align: center;
+          background: dodgerblue;
+          margin: 0%;
+          font-size: 50px;
+      }
+
+      h2 {
+          font-family: Arial, Helvetica, sans-serif;
+          text-align: center;
+          font-size: 30px;
+      }
+
+      img {
+
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          border: lawngreen;
+      }
+    </style>
+    <title>Face Mask Detector</title>
+  </head>
+  <body>
+    <h1>Face Mask Detector</h1>
+    <h2>Don't forget to wear a mask! 😷</h2>
+    <img src="{{ url_for('video_feed') }}">
+    <!-- <img src="https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fspecials-images.forbesimg.com%2Fdam%2Fimageserve%2F1106530967%2F960x0.jpg%3Ffit%3Dscale" alt=""> -->
+  </body>
+</html>
